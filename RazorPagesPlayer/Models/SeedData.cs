@@ -52,11 +52,59 @@ namespace RazorPagesPlayer.Models
 
                     new Player
                     {
-                        Name = "Xiaohu",
-                        Age = 23,
-                        Team = "Royal Never Give Up",
+                        Name = "Canyon",
+                        Age = 20,
+                        Team = "Damwon Gaming KIA",
+                        Role = "Mid",
+                        KDA = 4.8M,
+                    },
+                    new Player
+                    {
+                        Name = "CoreJJ",
+                        Age = 27,
+                        Team = "Team Liquid",
+                        Role = "Support",
+                        KDA = 3.9M,
+                    },
+                    new Player
+                    {
+                        Name = "FBI",
+                        Age = 2,
+                        Team = "Team Liquid",
+                        Role = "Bottom",
+                        KDA = 4.4M,
+                    },
+                    new Player
+                    {
+                        Name = "Tarzan",
+                        Age = 22,
+                        Team = "LNG Esports",
+                        Role = "Jungle",
+                        KDA = 5.1M,
+                    },
+                    new Player
+                    {
+                        Name = "Nuguri",
+                        Age = 22,
+                        Team = "Fun Plus Pheonix",
                         Role = "Top",
-                        KDA = 3.7M,
+                        KDA = 3.0M,
+                    },
+                    new Player
+                    {
+                        Name = "Gaeng",
+                        Age = 25,
+                        Team = "Detonation Focus Me",
+                        Role = "Support",
+                        KDA = 4.2M,
+                    },
+                    new Player
+                    {
+                        Name = "Unified",
+                        Age = 22,
+                        Team = "PSG Talon",
+                        Role = "Support",
+                        KDA = 9.4M,
                     }
                 );
                 context.SaveChanges();
